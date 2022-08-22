@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @keyframes animatehand {
+  0% {
+    right: -180px;
+  }
+
+  50% {
+    right: 0;
+  }
+
+  100% {
+    right: -180px;
+  }
+} */
+
+.animate-hand {
+  /* animation: animatehand 5s; */
+  right: -500px;
+}
+
+.ease {
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.22, 0.80)
+}
