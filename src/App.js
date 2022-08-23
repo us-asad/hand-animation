@@ -4,6 +4,8 @@ export default function App() {
   const [time, setTime] = useState(0);
 
   const restartAnimation = () => {
+    setTime(0)
+
     const interval = setInterval(() => {
       if (time < 10) {
         setTime(prev => {
